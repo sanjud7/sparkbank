@@ -1,0 +1,155 @@
+html{
+    background-color: rgb(84, 22, 143);
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    overflow :hidden;
+}
+.container{
+    width: 85%;
+    height:600px;
+    background-color: rgb(159, 78, 235);
+    position: absolute;
+    top: 10%;
+    left:7%;
+    border-radius: 10px;
+
+}
+.menubar .bankname{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.customerpanel{
+   
+    position: absolute;
+    top: 10px;
+    left: 70%;
+   
+   
+
+}
+
+.customerpanel li{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+    position:relative;
+    left:-20px;
+    
+    
+      
+}
+
+
+.customerpanel li a{
+    text-decoration: none;
+    color: white;
+    
+}
+#home{
+    text-decoration: none;
+    color: white;
+}
+
+.welcome::before{
+    content: "We";
+    color: black;
+}
+
+.welcome{
+    color: white;
+    position:relative;
+    top:33%;
+    left:15%;
+    font-size:50px;
+
+
+}
+
+
+.welcome::after{
+    content: "nk";
+    color: black;
+}
+.quotes{
+    position:absolute;
+    top: 52%;
+    left: 20%;
+
+}
+.quotes h2{
+    color: white;
+    background-color: rgb(96, 50, 139);
+    margin-left: 15px;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    padding-top: 10px;
+    border-radius: 80px;
+    text-align: center;
+    transition: transform 2s;
+}
+.quotes h2:hover{
+    transform: rotate(360deg);
+}
+.create{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 8%;
+    left: 70%;
+    border-radius: 10px;
+}
+.myform{
+    text-align: center;
+    display:list-item;
+    list-style: none;
+    margin: 10px;
+    
+    
+}
+
+.myform h3{
+   position: absolute;
+   top: 0%;
+   left: 34%;
+   color: orangered;
+   font-weight: bold;
+    
+    
+}
+
+
+
+
+.myform label, input[type="text"],input[type="email"],input[type="tel"]{
+    margin-top: 40px;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    
+}
+.btn{
+    background-color: rgb(149, 102, 192);
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 80%;
+    left:60%;
+    width: 80px;
+    height: 23px;
+    border-radius: 2px;
+    margin-top: 30px;
+}

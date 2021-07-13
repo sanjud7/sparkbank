@@ -1,0 +1,77 @@
+html{
+    background-color: rgb(84, 22, 143);
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.table{
+    width: 85%;
+    height:600px;
+    background-color: rgb(159, 78, 235);
+    position: absolute;
+    top: 10%;
+    left:7%;
+    border-radius: 10px;
+
+}
+.customertable{
+    color: white;
+    position: absolute;
+    top: 20%;
+    left:2%;
+    border-color: white;
+    width:600px; 
+    line-height:40px;
+    align-items: center;
+    overflow: scroll;
+}
+.record{
+    position: relative;
+    top: -110px;
+    left:-10%;
+    font-size: 24px;
+}
+.money{
+ 
+    position: relative;
+    left:65%;
+    top:20px;
+    width:400px;
+    height: 430px;
+    background-color: rgba(248, 248, 248, 0.938);
+    border-radius: 20px;
+    display: inline-block;
+}
+h1{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left:71%;
+    top:20px;
+
+}
+.from{
+    color: rgb(0, 0, 0);
+    position: relative;
+    display:list-item;
+    list-style: none;
+    top: 10px;
+    left: 40px;
+}
+.money button{
+    position:relative;
+    top: 70px;
+    left: 40px;
+    background-color:rgb(171, 105, 233);
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
